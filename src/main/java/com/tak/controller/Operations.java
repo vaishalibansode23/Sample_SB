@@ -16,5 +16,10 @@ public class Operations {
 	{
 		return "hello";
 	}
+	@GetMapping("/domultiplication")
+	public int doMultiplication()
+	{
+		return 9*9;
+	}
 
 }
